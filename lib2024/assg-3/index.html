@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Assignment 3</h1>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="somepage.php" method="get">
+				<div id="fn-container" class="form-elm">
+					<label for="FirstName">First name</label>
+					<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here">
+				</div>
+				<div id="ln-container" class="form-elm">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name here">
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" value="example@g.com" readonly>
+				</div>
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+
+				<div id="sum-container" class="form-elm">
+					<label for="summary">Summary</label>
+					<textarea name="summary" id="summary" placeholder="Enter summary here"> </textarea>
+				</div>
+					<label for="dte">Date of Birth</label>
+					<input type="date" name="dte" id="dte"><br>
+				<div>
+					<label for="phone">Enter your phone number:</label>
+					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="000-0000-0000">
+				</div>
+
+				<div id="radio-container" class="form-elm">
+					<p>Gender</p>
+					<label for="Male">
+						<input type="radio" name="like-form" id="Male" value="Male" checked>
+						Male
+					</label>
+					<label>
+						<input type="radio" name="like-form" id="Female" value="Female">
+						Female
+					</label>
+				</div>
+
+				<div id="ln-container" class="form-elm">
+					<label for="Address">Address</label>
+					<input type="text" name="Address" id="Address" placeholder="123 suntrail ave...">
+				</div>
+
+				<div id="ln-container" class="form-elm">
+					<label for="City">City</label>
+					<input type="text" name="City" id="City" placeholder="Kingston...">
+				</div>
+
+				<div id="og-contianer" class="form-elm">
+					<label for="Province">Province</label>
+					<select id="Province" name="Province">
+						<optgroup label="Select Province">
+							<option value="Ontario">Ontario</option>
+							<option value="British Columbia">British Columbia</option>
+							<option value="New Brunswick">New Brunswick</option>
+						</optgroup>
+					</select>
+				</div>
+
+				<div id="og-contianer" class="form-elm">
+					<label for="Country">Country</label>
+					<select id="Country" name="Country">
+						<optgroup label="Select Country">
+							<option value="Canada">Canada</option>
+							<option value="United States">United States</option>
+							<option value="Spain">Spain</option>
+						</optgroup>
+					</select>
+				</div>
+				<div id="ln-container" class="form-elm">
+						<label for="Postal Code">Postal Code</label>
+						<input type="text" name="Postal Code" id="Postal Code" placeholder="K3L 9D7...">
+				</div>
+
+				<div id="hobbies/Interests-container" class="form-elm">
+					<h4>Hobbies/Interests</h4>
+					<label for="hobbies">Reading</label>
+					<input type="checkbox" name="hobbies" id="Reading" value="reading"> <br>
+
+					<label for="knitting">Knitting</label>
+					<input type="checkbox" name="hobbies" id="Knitting" value="knitting"> <br>
+
+					<label for="video games">Video Games</label>
+					<input type="checkbox" name="hobbies" id="Video Games" value="Video Games"> <br>
+
+					<label for="sports">Sports</label>
+						<input type="checkbox" name="hobbies" id="sports" value="sports">
+				</div>
+
+				<div>
+					<label for="url">Enter URL:</label>	
+					<input type="url" name="ur" id="ur" placeholder=""><br>
+				</div>
+				
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+	</div>			
+</body>
+</html>

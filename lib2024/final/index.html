@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<title>My Website</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+	<div class="overlay-container loader-container">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header start -->
+	<header class="site-header clearfix" id="site-header">
+		<div class="logo">
+			<h1>MY LOGO</h1>
+		</div>
+
+		<!-- main navigation start -->
+		<div class="title" >
+			<!--
+			<h1>Title Of Page</h1>-->
+		</div>
+		<nav class="main-nav-container desktop-nav">
+			
+			<a class="btn" href="index.html">Home</a>
+		
+			<a class="btn" href="about-us.html">About</a>
+
+			<a class="btn" href="schedule.html">Schedule</a>
+
+			<a class="btn" href="portfolio.html">Portfolio</a>
+			
+			<a class="btn" href="contact-us.html">Contact</a>
+				
+		</nav>
+	</header>
+	<!-- header end -->
+	<!-- main start -->
+	<main class="main clearfix" id="main">
+	<article class="col-main site-content">
+			<!-- main content start -->
+			<section class="main-content">
+				<h2>ABOUT</h2>
+				<p>Nulla rutrum venenatis felis eget dictum. Sed ornare nisi arcu, ut gravida 	massa vulputate eu. Morbi enim eros, efficitur sed consectetur sit amet, euismod id tellus. Phasellus vestibulum augue at nibh placerat, vitae hendrerit erat semper. Duis congue tortor vitae dui commodo cursus a sed felis. Suspendisse eget lorem vel ante fringilla porttitor. Praesent tincidunt urna ut volutpat mollis. Suspendisse finibus vehicula leo scelerisque dignissim. Nullam vulputate neque nec lorem tincidunt dignissim. Morbi convallis urna in suscipit euismod. Donec ornare vulputate ex sit amet molestie. Morbi consectetur est mauris, vitae ultricies est aliquet ut. Sed volutpat sem ut dui tincidunt dapibus.
+					<br><br>
+				Nullam in ipsum vitae quam tempor blandit. Vivamus tristique enim sed diam auctor porttitor. Nam eget mi iaculis, malesuada dolor at, sollicitudin urna. Sed auctor scelerisque bibendum. Nulla est nisi, ullamcorper at sodales sed, gravida eu ligula. Aliquam erat volutpat. Ut ut consectetur justo. Maecenas efficitur augue metus, sit amet blandit risus varius nec. In laoreet scelerisque laoreet. Donec ac viverra urna. Phasellus est dolor, facilisis vel tellus nec, tristique viverra nunc. Aliquam quis lectus nisi. Nullam id molestie sapien.
+				</p>
+				<br>
+			</section>
+		</article>
+			<!-- main content end -->
+			<!-- site sidebar start -->
+		<aside class="col-main site-sidebar">
+			<img src="img/TPgold.jpg" alt="Toilet Paper became Gold" width="400" height="200">
+			<br>
+		</aside>
+			<!-- site sidebar end -->
+	<!--</main> -->
+			<!-- image gallery start -->
+	<section class="schedule">
+		<br><br><br><br><br><br><br>
+		<h2>SCHEDULE</h2>
+		<div class="schedule-table clearfix">
+			<table id="schedule">
+    			<tr>
+					<th>TIME</th>
+					<th>MONDAY</th>
+					<th>TUESDAY</th>
+					<th>WEDNESDAY</th>
+					<th>THURSDAY</th>
+					<th>FRIDAY</th>
+				</tr>
+				<tr>
+					<td>09:00 - 11:00</td>
+					<td>Communications I</td>
+					<td>Client Services</td>
+					<td>Special Collections</td>
+					<td>Directed Research Seminar</td>
+					<td>Client Services</td>
+				</tr>
+				<tr>
+					<td>11:00 - 12:30</td>
+					<td>Reference</td>
+					<td>Internet App</td>
+					<td>Library Software</td>
+					<td>French</td>
+					<td>Reference</td>
+				</tr>
+				<tr>
+					<td>14:00 - 15:00</td>
+					<td>Acquisitions</td>
+					<td>General Elective</td>
+					<td>Marketing</td>
+					<td>Emerging Library Tech</td>
+					<td>Library Software</td>
+				</tr>
+				<tr>
+					<td>15:30 - 17:30</td>
+					<td>French</td>
+					<td>French</td>
+					<td>Acquisitions</td>
+					<td>Subject Analysis</td>
+					<td>Internet App</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+<section class="profile">
+		<div class="profile-edit">
+			<br>
+			<h2>EDIT PROFILE</h2>
+			<section id="html-forms" class="form-value-transfer clearfix">
+
+				<form id="form" action="submit.php" method="post">
+				<div id="name-container" class="form-elm">
+					<div class="col-10">
+						<label>Name:</label>
+					</div>
+					<div class="col-25">
+						<input type="text" name="name" id="name">
+					</div>
+				</div>
+				
+				<div id="email-container" class="form-elm">
+					<div class="col-10">
+						<label>Email:</label>
+					</div>
+					<div class="col-25">
+						<input type="email" required name="email" id="email">
+					</div>
+				</div>
+
+				<div id="ln-container" class="form-elm">
+					<div class="col-10">
+						<label>Address:</label>
+					</div>
+					<div class="col-25">
+						<input type="text" name="address" id="address">
+					</div>
+				</div>
+
+				<div id="ln-container" class="form-elm">
+					<div class="col-10">
+						<label>City:</label>
+					</div>
+					<div class="col-25">
+						<input type="text" name="city" id="city">
+					</div>
+				</div>
+
+				<div id="og-container" class="form-elm">
+					<div class="col-10">
+						<label>Province:</label>
+					</div>
+					<div class="col-25">
+						<select id="province" name="province">
+							<optgroup label for="Select Province">
+								<option value="ON">Ontario</option>
+								<option value="BC">British Columbia</option>
+								<option value="NB">New Brunswick</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+				<div id="ln-container" class="form-elm">
+					<div class="col-10">
+						<label>Postal Code:</label>
+					</div>
+					<div class="col-25">
+						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="pc" id="pc" placeholder="A0A 0A0"> 
+					</div>
+				</div>				
+				<button id="submit" type="submit">Submit</button>
+			</form>
+</section>
+
+		</div>
+	</section>
+	<section class="profile-transf clearfix text">
+				<h2>Profile Info</h2>
+
+				<div id="results">
+					<img src="img/noface.jpg" alt="Profile picture" width="100" height="100">
+					<h3><p><span id="name_result"></span></p></h3>
+					<p><a href="#" id="email_result"></a></p>
+					<p><span id="address_result"></span>&#44;&#160;<span id="city_result"></span></p>
+					<p><span id="province_result"></span>&#44;&#160;<span id="pc_result"></span></p>	
+				</div>
+			</section>
+	</main>
+	<!-- main end -->
+<!-- footer start -->
+	<footer class="footer" id="footer">
+		<div class="footer-container">
+			<section class="footer-left">
+				<h3>QUICK LINKS</h3>
+				<a href="schedule.html">SCHEDULE</a><br>
+				<a href="about-us.html">ABOUT</a><br>
+				<a href="portfolio.html">PORTFOLIO</a><br>
+				<a href="contact-us.html">CONTACT</a>
+			</section>
+		
+			<section class="footer-center social-media">
+				<nav>
+					<h3>FOLLOW US</h3>
+					<a href="http://www.facebook.com">
+						<img src="img/facebook.png" style="width:25%" title="Facebook" alt="Facebook">
+					</a>
+						
+					<a href="http://www.youtube.com">
+						<img src="img/youtube.png" style="width:25%" title="Youtube" alt="Youtube">
+					</a>
+					<a href="http://www.twitter.com">
+						<img src="img/twitter.png" style="width:25%" title="Twitter" alt="Twitter">
+					</a>	
+				</nav>
+			</section>
+			<section class="footer-right">
+				<h3>ADDRESS</h3>
+				<p>1385 Woodroffe Ave,</p>
+				<p>Nepean, ON K2G 1V8</p>
+				<p>Canada</p>
+			</section>
+		</div>
+	</footer>
+	<!-- include jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- script tag is not a self closing tag so it requires </script> to close itself -->
+	<!-- To add an external script file, script tag is used with src attribute containing the path of the script that we would like to include in this document -->
+	<script type="text/javascript" src="js/form.js"></script>
+
+</body>
+</html>
